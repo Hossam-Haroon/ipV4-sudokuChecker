@@ -98,6 +98,7 @@ fun sudokuChecker(sudokuPuzzle : Array<CharArray>): Boolean{
     rowElementsIndex = 0
 
     // CAN'T FIGURE THE COLUMN CHECK
+    //ALSO MISSING THE COLUMN PART IN THE FLOWCHART.
     while (rowIndex in 0..sudokuPuzzle.size-1){
         var rowIndexForColumnCheck = 0
         for (index in sudokuPuzzle[rowIndex].indices){
