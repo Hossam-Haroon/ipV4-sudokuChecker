@@ -116,7 +116,6 @@ fun sudokuChecker(sudokuPuzzle : Array<CharArray>): Boolean{
 
     }
 
-    //column check
 
     return true
 }
